@@ -1,0 +1,38 @@
+/* CSS for basic styling */
+
+body {
+    background-color: rgb(155, 239, 239);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Text alignment center for the whole body */
+}
+
+h1 {
+    color: #fffdfd; /* Dark grey color */
+}
+
+h2 {
+    color: #ffffff; /* Light grey color */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between list items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fffdfd; /* Dark grey color */
+}
+
+footer {
+    background-color: #f4f4f4; /* Light grey background color */
+    padding: 10px;
+    text-align: center;
+}
